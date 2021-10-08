@@ -10,6 +10,14 @@ public class Account {
     public Account() {
     }
 
+    public double getMoney() {
+        return money;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
     public Account(String cardID, String username, String passWord, double quotaMoney) {
         this.cardID = cardID;
         this.username = username;
